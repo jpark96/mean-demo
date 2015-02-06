@@ -1,0 +1,28 @@
+{
+  "name": "mean-demo",
+  "version": "1.0.0",
+  "description": "Demo of Mean Stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt nodeunit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpark96/mean-demo.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Jin Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpark96/mean-demo/issues"
+  },
+  "homepage": "https://github.com/jpark96/mean-demo",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.22"
+  }
+}
